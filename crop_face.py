@@ -46,5 +46,5 @@ def crop_and_put():
 
 
 if __name__ == '__main__':
-    # tear_frame("blah.mp4")  # video name
+    # tear_frame("blah.mp4")
     crop_and_put()
