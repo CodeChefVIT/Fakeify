@@ -25,15 +25,14 @@
 ## Instructions to run
 
 ```
-$ git clone https://github.com/CodeChefVIT/<Project>
-$ cd <Project>
-$ pip3 install -r requirements.txt
-$ python3 manage.py runserver
+$ git clone https://github.com/CodeChefVIT/Fakeify
+$ cd Fakeify
+
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/j0fiN">Jofin F Archbald</a>
+- <a href="https://github.com/<Contributor>">Sourav</a>
 
 ## License
 
