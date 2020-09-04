@@ -27,7 +27,7 @@
 ```
 $ git clone https://github.com/CodeChefVIT/Fakeify
 $ cd Fakeify
-
+$ pip install -r requirements.txt
 ```
 
 ## Contributors
