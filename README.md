@@ -14,7 +14,8 @@
 
 
 ## Features
-- Will be ubdated
+- Preprocessing is complete
+- Model will be updated soon.
 
 
 
