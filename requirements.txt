@@ -4,3 +4,4 @@ pip
 PyYAML
 setuptools
 utile
+tensorflow
