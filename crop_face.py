@@ -39,12 +39,24 @@ def crop_face(file_name, save_file_name="no_name.png", width=28, height=28, show
 
 
 # MULTI-FILE CROPPER
-@timer()
-@processor({crop_face: [[f"train/{i}", f"cropped_train/{i}", 28, 28] for i in os.listdir("train")]})
-def crop_and_put():
-    pass
+def crop_all_faces_in_folder(folder_name='train/', save_folder='cropped_train/', width=28, height=28):
+    if os.path.isdir(folder_name):
+        if not os.path.isdir(save_folder):
+            os.mkdir(save_folder)
+
+        @timer()
+        @processor(
+            {crop_face: [[f"{folder_name}{i}", f"{save_folder}{i}", width, height] for i in os.listdir("train")]})
+        def crop_and_put():
+            pass
+
+        if __name__ == '__main__':
+            crop_and_put()
+
+    else:
+        raise Exception('file not found.')
 
 
 if __name__ == '__main__':
     # tear_frame("blah.mp4") sample video
-    crop_and_put()
+    pass
