@@ -23,11 +23,15 @@
 <img src="https://github.com/akshatvg/common-entry-test/raw/master/static/img/header.png" alt="Project Screenshots">
 
 ## Instructions to run
-
 ```
 $ git clone https://github.com/CodeChefVIT/Fakeify
 $ cd Fakeify
 $ pip install -r requirements.txt
+```
+#### Preprocessing from video file  
+```shell script
+$ python preprocess.py --help # if necessary 
+$ python preprocess.py -t "your/video/file/path.extension" -p 128 128
 ```
 
 ## Contributors
